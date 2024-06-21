@@ -1,0 +1,17 @@
+ipython
+matplotlib
+midi2audio
+mido
+music21
+numpy
+pandas
+pygame
+python-dotenv
+requests
+scipy
+supabase
+keras
+keras-metrics
+tensorflow
+tqdm
+samplings

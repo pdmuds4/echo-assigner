@@ -9,3 +9,238 @@
 #   generate-hashes: false
 
 -e file:.
+absl-py==2.1.0
+    # via keras
+    # via tensorboard
+    # via tensorflow
+annotated-types==0.7.0
+    # via pydantic
+anyio==4.4.0
+    # via httpx
+asttokens==2.4.1
+    # via stack-data
+astunparse==1.6.3
+    # via tensorflow
+certifi==2024.6.2
+    # via httpcore
+    # via httpx
+    # via requests
+chardet==5.2.0
+    # via music21
+charset-normalizer==3.3.2
+    # via requests
+contourpy==1.2.1
+    # via matplotlib
+cycler==0.12.1
+    # via matplotlib
+decorator==5.1.1
+    # via ipython
+deprecation==2.1.0
+    # via postgrest
+executing==2.0.1
+    # via stack-data
+flatbuffers==24.3.25
+    # via tensorflow
+fonttools==4.53.0
+    # via matplotlib
+gast==0.5.4
+    # via tensorflow
+google-pasta==0.2.0
+    # via tensorflow
+gotrue==2.5.1
+    # via supabase
+grpcio==1.64.1
+    # via tensorboard
+    # via tensorflow
+h11==0.14.0
+    # via httpcore
+h5py==3.11.0
+    # via keras
+    # via tensorflow
+httpcore==1.0.5
+    # via httpx
+httpx==0.27.0
+    # via gotrue
+    # via postgrest
+    # via storage3
+    # via supabase
+    # via supafunc
+idna==3.7
+    # via anyio
+    # via httpx
+    # via requests
+ipython==8.25.0
+    # via echo-assigner
+jedi==0.19.1
+    # via ipython
+joblib==1.4.2
+    # via music21
+jsonpickle==3.2.2
+    # via music21
+keras==3.3.3
+    # via echo-assigner
+    # via keras-metrics
+    # via tensorflow
+keras-metrics==1.1.0
+    # via echo-assigner
+kiwisolver==1.4.5
+    # via matplotlib
+libclang==18.1.1
+    # via tensorflow
+markdown==3.6
+    # via tensorboard
+markdown-it-py==3.0.0
+    # via rich
+markupsafe==2.1.5
+    # via werkzeug
+matplotlib==3.9.0
+    # via echo-assigner
+    # via music21
+matplotlib-inline==0.1.7
+    # via ipython
+mdurl==0.1.2
+    # via markdown-it-py
+mido==1.3.2
+    # via echo-assigner
+ml-dtypes==0.3.2
+    # via keras
+    # via tensorflow
+more-itertools==10.3.0
+    # via music21
+music21==9.1.0
+    # via echo-assigner
+namex==0.0.8
+    # via keras
+numpy==1.26.4
+    # via contourpy
+    # via echo-assigner
+    # via h5py
+    # via keras
+    # via matplotlib
+    # via ml-dtypes
+    # via music21
+    # via opt-einsum
+    # via pandas
+    # via scipy
+    # via tensorboard
+    # via tensorflow
+opt-einsum==3.3.0
+    # via tensorflow
+optree==0.11.0
+    # via keras
+packaging==23.2
+    # via deprecation
+    # via matplotlib
+    # via mido
+    # via tensorflow
+pandas==2.2.2
+    # via echo-assigner
+parso==0.8.4
+    # via jedi
+pexpect==4.9.0
+    # via ipython
+pillow==10.3.0
+    # via matplotlib
+postgrest==0.16.8
+    # via supabase
+prompt-toolkit==3.0.47
+    # via ipython
+protobuf==4.25.3
+    # via tensorboard
+    # via tensorflow
+ptyprocess==0.7.0
+    # via pexpect
+pure-eval==0.2.2
+    # via stack-data
+pydantic==2.7.4
+    # via gotrue
+    # via postgrest
+pydantic-core==2.18.4
+    # via pydantic
+pygame==2.5.2
+    # via echo-assigner
+pygments==2.18.0
+    # via ipython
+    # via rich
+pyparsing==3.1.2
+    # via matplotlib
+python-dateutil==2.9.0.post0
+    # via matplotlib
+    # via pandas
+    # via realtime
+    # via storage3
+python-dotenv==1.0.1
+    # via echo-assigner
+pytz==2024.1
+    # via pandas
+realtime==1.0.6
+    # via supabase
+requests==2.32.3
+    # via echo-assigner
+    # via music21
+    # via tensorflow
+rich==13.7.1
+    # via keras
+samplings==0.1.7
+    # via echo-assigner
+scipy==1.13.1
+    # via echo-assigner
+setuptools==70.1.0
+    # via tensorboard
+    # via tensorflow
+six==1.16.0
+    # via asttokens
+    # via astunparse
+    # via google-pasta
+    # via python-dateutil
+    # via tensorboard
+    # via tensorflow
+sniffio==1.3.1
+    # via anyio
+    # via httpx
+stack-data==0.6.3
+    # via ipython
+storage3==0.7.6
+    # via supabase
+strenum==0.4.15
+    # via postgrest
+supabase==2.5.1
+    # via echo-assigner
+supafunc==0.4.6
+    # via supabase
+tensorboard==2.16.2
+    # via tensorflow
+tensorboard-data-server==0.7.2
+    # via tensorboard
+tensorflow==2.16.1
+    # via echo-assigner
+termcolor==2.4.0
+    # via tensorflow
+tqdm==4.66.4
+    # via echo-assigner
+traitlets==5.14.3
+    # via ipython
+    # via matplotlib-inline
+typing-extensions==4.12.2
+    # via optree
+    # via pydantic
+    # via pydantic-core
+    # via realtime
+    # via storage3
+    # via tensorflow
+tzdata==2024.1
+    # via pandas
+urllib3==2.2.2
+    # via requests
+wcwidth==0.2.13
+    # via prompt-toolkit
+webcolors==24.6.0
+    # via music21
+websockets==12.0
+    # via realtime
+werkzeug==3.0.3
+    # via tensorboard
+wheel==0.43.0
+    # via astunparse
+wrapt==1.16.0
+    # via tensorflow
