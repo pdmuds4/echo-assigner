@@ -69,6 +69,8 @@ idna==3.7
     # via anyio
     # via httpx
     # via requests
+iniconfig==2.0.0
+    # via pytest
 ipython==8.25.0
     # via echo-assigner
 jedi==0.19.1
@@ -132,6 +134,7 @@ packaging==23.2
     # via deprecation
     # via matplotlib
     # via mido
+    # via pytest
     # via tensorflow
 pandas==2.2.2
     # via echo-assigner
@@ -141,6 +144,8 @@ pexpect==4.9.0
     # via ipython
 pillow==10.3.0
     # via matplotlib
+pluggy==1.5.0
+    # via pytest
 postgrest==0.16.8
     # via supabase
 prompt-toolkit==3.0.47
@@ -164,6 +169,7 @@ pygments==2.18.0
     # via rich
 pyparsing==3.1.2
     # via matplotlib
+pytest==8.2.2
 python-dateutil==2.9.0.post0
     # via matplotlib
     # via pandas
