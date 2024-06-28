@@ -1,3 +1,7 @@
 # echo-assigner
 
-Describe your project here.
+# Debug
+* How to run tests.
+```
+$ pytest -s [test python path]
+```
