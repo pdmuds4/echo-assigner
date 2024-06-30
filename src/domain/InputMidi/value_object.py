@@ -53,15 +53,3 @@ class InputMidiBpmSection(BaseModel):
 class InputMidiBpmMap(BaseModel):
     value: List[InputMidiBpmSection]
     model_config = ConfigDict(frozen=True)
-
-
-class InputMidiKey(BaseModel):
-    value: Any
-    model_config = ConfigDict(frozen=True)
-
-    @field_validator('value')
-    def check_value(cls, value: m21.key.Key):
-        if type(m21.key.Key()) != type(value):
-            raise TypeError('Input must be a music21.key.Key object')
-        else:
-            return value

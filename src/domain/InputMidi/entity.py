@@ -8,7 +8,6 @@ class InputMidiEntity(BaseModel):
     stream: InputMidiStream = None
     time_signature: InputMidiTimeSignature = None
     bpm_map: InputMidiBpmMap = None
-    key: InputMidiKey = None
 
     def __init__(self, id: int, path: str):
         super().__init__(id=InputMidiID(value=id), path=InputMidiPath(value=path))
@@ -28,8 +27,5 @@ class InputMidiEntity(BaseModel):
                 value=v
             ) for so, eo, v in self.stream.value.metronomeMarkBoundaries()
         ])
-
-        self.key = InputMidiKey(value=self.stream.value.analyze('key'))
-
 
 
