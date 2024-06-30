@@ -71,6 +71,8 @@ idna==3.7
     # via requests
 iniconfig==2.0.0
     # via pytest
+injector==0.21.0
+    # via echo-assigner
 ipython==8.25.0
     # via echo-assigner
 jedi==0.19.1
@@ -158,6 +160,7 @@ ptyprocess==0.7.0
 pure-eval==0.2.2
     # via stack-data
 pydantic==2.7.4
+    # via echo-assigner
     # via gotrue
     # via postgrest
 pydantic-core==2.18.4
