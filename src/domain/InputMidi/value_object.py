@@ -20,6 +20,8 @@ class InputMidiStream(BaseModel):
     def check_value(cls, value: m21.stream.Score):
         if type(m21.stream.Score()) != type(value):
             raise TypeError('Input must be a music21.stream.Score object')
+        elif len(value.parts) > 1:
+            raise ValueError('Input MIDI should have only one part')
         else:
             return value
 
