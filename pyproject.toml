@@ -46,4 +46,4 @@ allow-direct-references = true
 packages = ["src/echo_assigner"]
 
 [project.scripts]
-hello = "echo_assigner:hello
+hello = "echo_assigner:hello"
