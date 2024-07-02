@@ -12,10 +12,6 @@ class InputMidiEntity(BaseModel):
     def __init__(self, id: int, path: str):
         super().__init__(id=InputMidiID(value=id), path=InputMidiPath(value=path))
         self.stream = InputMidiStream(value=m21.converter.parse(self.path.value))
-        
-        # [!]パートが複数ある場合はパラメータとして選択できるようにする
-        if len(self.stream.value.parts) > 1:
-            raise ValueError("Input MIDI should have only one part")
 
         self.time_signature = [
             InputMidiTimeSignature(value=ts) 
